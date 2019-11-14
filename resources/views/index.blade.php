@@ -4,7 +4,8 @@
 <section class="header-area ">
     <div class="header-inner" id="header-carousel">
 
-        <div class="single-slider-item header-bg-1"><!-- single header slider item -->
+        <div class="single-slider-item header-bg-1">
+            <!-- single header slider item -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
@@ -38,7 +39,8 @@
             </div>
         </div>
 
-        <div class="single-slider-item header-bg-3"><!-- single header slider item -->
+        <div class="single-slider-item header-bg-3">
+            <!-- single header slider item -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
@@ -83,93 +85,128 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <div class="section-title"><!-- section title -->
+                <div class="section-title">
+                    <!-- section title -->
                     <span class="subtitle">Grupo Magno</span>
                     <h2 class="title">Nuestros Productos</h2>
                     <div class="separator"></div>
-                    <p>Contamos con una amplia grama de productos, entre ellos revestimientos, pinturas, molduras y accesorios.</p>
+                    <p>Contamos con una amplia grama de productos, entre ellos revestimientos, pinturas, molduras y
+                        accesorios.</p>
                 </div><!-- section title -->
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="single-services-box"><!-- single services box  -->
-                    <div class="thumb"><!-- thumb -->
+            <div class="col-md-4 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
                         <img src="assets/img/services/01.png" alt="services images">
-                        <div class="icon-wrapper">
-                            <div class="icon"><i class="icofont icofont-home"></i></div>
-                        </div>
                     </div><!-- //.thumb -->
                     <div class="content">
-                        <a href="#"><h4 class="title">Revestimientos</h4></a>
+                        <a href="/productos/revestimientos">
+                            <h4 class="title">Revestimientos</h4>
+                        </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="#" class="readmore">Ver productos</a>
+                        <a href="/productos/revestimientos" class="readmore">Ver productos</a>
                     </div>
                 </div><!-- //.single services box  -->
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
                         <!-- thumb -->
-                        <img src="assets/img/services/02.jpg" alt="services images">
-                        <div class="icon-wrapper">
-                            <div class="icon">
-                                <i class="icofont icofont-paint"></i>
-                            </div>
-                        </div>
+                        <img src="assets/img/services/02.png" alt="services images">
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="#"><h4 class="title">Pinturas</h4></a>
+                        <a href="/productos/pinturas">
+                            <h4 class="title">Pinturas</h4>
+                        </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="#" class="readmore">Ver productos</a>
+                        <a href="/productos/pinturas" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
                         <!-- thumb -->
-                        <img src="assets/img/services/03.jpg" alt="services images">
-                        <div class="icon-wrapper">
-                            <div class="icon">
-                                <i class="icofont icofont-fire-alt"></i>
-                            </div>
-                        </div>
+                        <img src="assets/img/services/03.png" alt="services images">
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="#"><h4 class="title">Molduras</h4></a>
+                        <a href="/productos/ecologicos">
+                            <h4 class="title">Productos Ecológicos</h4>
+                        </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="#" class="readmore">Ver productos</a>
+                        <a href="/productos/ecologicos" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->
             </div>
-            <div class="col-md-3 col-sm-6">
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <div class="col-md-4 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
+                        <img src="assets/img/services/04.png" alt="services images">
+                    </div>
+                    <!-- //.thumb -->
+                    <div class="content">
+                        <a href="/productos/industrial">
+                            <h4 class="title">Línea Industrial</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
+                        <a href="/productos/industrial" class="readmore">Ver productos</a>
+                    </div>
+                </div>
+                <!-- //.single services box  -->
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
+                        <img src="assets/img/services/05.png" alt="services images">
+                    </div>
+                    <!-- //.thumb -->
+                    <div class="content">
+                        <a href="/productos/especiales">
+                            <h4 class="title">Productos Especiales</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
+                        <a href="/productos/especiales" class="readmore">Ver productos</a>
+                    </div>
+                </div>
+                <!-- //.single services box  -->
+            </div>
+
+            <div class="col-md-4 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
                         <!-- thumb -->
                         <img src="assets/img/services/04.jpg" alt="services images">
-                        <div class="icon-wrapper">
-                            <div class="icon">
-                                <i class="icofont icofont-brush"></i>
-                            </div>
-                        </div>
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="#"><h4 class="title">Accesorios</h4></a>
+                        <a href="#">
+                            <h4 class="title">Accesorios</h4>
+                        </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
                         <a href="#" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->
             </div>
+
         </div>
     </div>
 </section>
@@ -180,7 +217,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <div class="section-title"><!-- section title -->
+                <div class="section-title">
+                    <!-- section title -->
                     <!-- <span class="subtitle">Clientes que confiaron en nosotros</span> -->
                     <h3 class="title second">Clientes que confiaron en nosotros</h3>
                 </div><!-- section title -->
@@ -191,7 +229,8 @@
                 <div class="brand-carousel-wrapper" id="brand-carousel">
                     <div class="single-brand-item">
                         <a href="#">
-                            <img src="https://casareshoy.com.ar/wp-content/uploads/2019/02/banco_provincia-01-1140x665.png" alt="brand images">
+                            <img src="https://casareshoy.com.ar/wp-content/uploads/2019/02/banco_provincia-01-1140x665.png"
+                                alt="brand images">
                         </a>
                     </div>
                     <div class="single-brand-item">
