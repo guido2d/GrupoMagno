@@ -30,4 +30,4 @@ Route::get('/admin/nuevo-producto', function() {
 Route::post('/admin/guardar-producto', 'HomeController@save');
 Route::get('/admin/editar-producto/{id}', 'HomeController@editar');
 Route::post('/admin/actualizar-producto', 'HomeController@actualizar');
-Route::post('/admin/eliminar-producto/{id}', 'HomeController@borrar');
+Route::get('/admin/eliminar-producto/{id}', 'HomeController@borrar');
