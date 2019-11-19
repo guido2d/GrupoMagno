@@ -70,6 +70,7 @@
                         <div class="content">
                             <h4 class="title">Email/Teléfono</h4>
                             <span class="details">quimtex@grupomagno.com.ar</span>
+                            <span class="details">quimtexmayorista@grupomagno.com.ar</span>
                             <span class="details">+54 (011) 4926-2525</span>
                         </div>
                     </div><!-- //. single contact info -->

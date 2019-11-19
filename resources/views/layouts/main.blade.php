@@ -21,7 +21,7 @@
     <!-- magnific popup -->
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1') }}">
     <!-- responsive -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 </head>
@@ -41,6 +41,10 @@
         </span>
     </div>
     <!-- prealoader area end -->
+
+    <a target="_blank" id="btnWhatsapp" href="https://api.whatsapp.com/send?phone=5491168259591" class="btn-whatsapp">
+        <img src="/assets/img/logo_whatsapp.svg" alt="Logo WhatsApp">
+    </a>
 
    @include('layouts.scripts')
 </body>

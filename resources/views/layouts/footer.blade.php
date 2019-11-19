@@ -12,6 +12,7 @@
                             <p>Av. Cobo 975, Ciudad Autónoma de Buenos Aires, Argentina. <br>
                                 +54 (011) 4926-2525 <br>
                                 quimtex@grupomagno.com.ar
+                                quimtexmayorista@grupomagno.com.ar
                             </p>
                             <ul class="social-links">
                                 <li>Seguinos En:</li>

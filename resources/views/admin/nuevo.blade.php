@@ -31,12 +31,14 @@
                             <div class="form-group">
                                 <label for="categoria">Categoría</label>
                                 <select name="categoria" class="form-control" id="categoria">
-                                  <option value="1">Revestimientos</option>
-                                  <option value="2">Pinturas</option>
-                                  <option value="3">Productos Ecológicos</option>
-                                  <option value="4">Línea Industrial</option>
-                                  <option value="5">Productos Especiales</option>
-                                  <option value="6">Accesorios</option>
+                                    <option value="1">Acondicionadores de superficie</option>
+                                    <option value="2">Impermeabilizante</option>
+                                    <option value="3">Pinturas Látex</option>
+                                    <option value="4">Esmaltes y anticorrosivos</option>
+                                    <option value="5">Protectores de madera</option>
+                                    <option value="6">Línea Industrial</option>
+                                    <option value="7">Revestimientos plásticos</option>
+                                    <option value="8">Accesorios</option>
                                 </select>
                             </div>
                         </div>
