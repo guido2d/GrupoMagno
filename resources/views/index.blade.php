@@ -96,7 +96,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
@@ -104,15 +104,15 @@
                         <img src="assets/img/services/01.png" alt="services images">
                     </div><!-- //.thumb -->
                     <div class="content">
-                        <a href="/productos/revestimientos">
-                            <h4 class="title">Revestimientos</h4>
+                        <a href="/productos/acondicionadores">
+                            <h4 class="title">Acondicionadores de superficie</h4>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="/productos/revestimientos" class="readmore">Ver productos</a>
+                        <a href="/productos/acondicionadores" class="readmore">Ver productos</a>
                     </div>
                 </div><!-- //.single services box  -->
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
@@ -121,16 +121,16 @@
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="/productos/pinturas">
-                            <h4 class="title">Pinturas</h4>
+                        <a href="/productos/impermeabilizante">
+                            <h4 class="title">Impermeabilizante</h4>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="/productos/pinturas" class="readmore">Ver productos</a>
+                        <a href="/productos/impermeabilizante" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
@@ -139,23 +139,60 @@
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="/productos/ecologicos">
-                            <h4 class="title">Productos Ecológicos</h4>
+                        <a href="/productos/pinturas">
+                            <h4 class="title">Pinturas Látex</h4>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="/productos/ecologicos" class="readmore">Ver productos</a>
+                        <a href="/productos/pinturas" class="readmore">Ver productos</a>
+                    </div>
+                </div>
+                <!-- //.single services box  -->
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
+                        <img src="assets/img/services/03.png" alt="services images">
+                    </div>
+                    <!-- //.thumb -->
+                    <div class="content">
+                        <a href="/productos/esmaltes">
+                            <h4 class="title">Esmaltes y anticorrosivos</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
+                        <a href="/productos/esmaltes" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->
             </div>
         </div>
         <div class="row" style="margin-top:20px;">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
                         <!-- thumb -->
                         <img src="assets/img/services/04.png" alt="services images">
+                    </div>
+                    <!-- //.thumb -->
+                    <div class="content">
+                        <a href="/productos/madera">
+                            <h4 class="title">Protectores de madera</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
+                        <a href="/productos/madera" class="readmore">Ver productos</a>
+                    </div>
+                </div>
+                <!-- //.single services box  -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
+                        <img src="assets/img/services/05.png" alt="services images">
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
@@ -169,26 +206,7 @@
                 <!-- //.single services box  -->
             </div>
 
-            <div class="col-md-4 col-sm-6">
-                <div class="single-services-box">
-                    <!-- single services box  -->
-                    <div class="thumb">
-                        <!-- thumb -->
-                        <img src="assets/img/services/05.png" alt="services images">
-                    </div>
-                    <!-- //.thumb -->
-                    <div class="content">
-                        <a href="/productos/especiales">
-                            <h4 class="title">Productos Especiales</h4>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="/productos/especiales" class="readmore">Ver productos</a>
-                    </div>
-                </div>
-                <!-- //.single services box  -->
-            </div>
-
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                 <div class="single-services-box">
                     <!-- single services box  -->
                     <div class="thumb">
@@ -197,11 +215,30 @@
                     </div>
                     <!-- //.thumb -->
                     <div class="content">
-                        <a href="#">
+                        <a href="/productos/revestimientos">
+                            <h4 class="title">Revestimientos plásticos</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
+                        <a href="/productos/revestimientos" class="readmore">Ver productos</a>
+                    </div>
+                </div>
+                <!-- //.single services box  -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single-services-box">
+                    <!-- single services box  -->
+                    <div class="thumb">
+                        <!-- thumb -->
+                        <img src="assets/img/services/04.jpg" alt="services images">
+                    </div>
+                    <!-- //.thumb -->
+                    <div class="content">
+                        <a href="/productos/accesorios">
                             <h4 class="title">Accesorios</h4>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, tenetur.</p>
-                        <a href="#" class="readmore">Ver productos</a>
+                        <a href="/productos/accesorios" class="readmore">Ver productos</a>
                     </div>
                 </div>
                 <!-- //.single services box  -->

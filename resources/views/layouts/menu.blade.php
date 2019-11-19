@@ -84,19 +84,25 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="{{ asset('/productos/revestimientos') }}">Revestimientos</a>
+                            <a href="{{ asset('/productos/acondicionadores') }}">Acondicionadores de superficie</a>
                         </li>
                         <li>
-                            <a href="{{ asset('/productos/pinturas') }}">Pinturas</a>
+                            <a href="{{ asset('/productos/impermeabilizante') }}">Impermeabilizante</a>
                         </li>
                         <li>
-                            <a href="{{ asset('/productos/ecologicos') }}">Productos Ecológicos</a>
+                            <a href="{{ asset('/productos/pinturas') }}">Pinturas Látex</a>
+                        </li>
+                        <li>
+                            <a href="{{ asset('/productos/esmaltes') }}">Esmaltes y anticorrosivos</a>
+                        </li>
+                        <li>
+                            <a href="{{ asset('/productos/madera') }}">Protectores de madera</a>
                         </li>
                         <li>
                             <a href="{{ asset('/productos/industrial') }}">Línea Industrial</a>
                         </li>
                         <li>
-                            <a href="{{ asset('/productos/especiales') }}">Productos Especiales</a>
+                            <a href="{{ asset('/productos/revestimientos') }}">Revestimientos plásticos</a>
                         </li>
                         <li>
                             <a href="{{ asset('/productos/accesorios') }}">Accesorios</a>
