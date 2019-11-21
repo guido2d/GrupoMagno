@@ -32,7 +32,7 @@
                                 <label for="categoria">Categoría</label>
                                 <select name="categoria" class="form-control" id="categoria">
                                     <option value="1">Acondicionadores de superficie</option>
-                                    <option value="2">Impermeabilizante</option>
+                                    <option value="2">Impermeabilizantes</option>
                                     <option value="3">Pinturas Látex</option>
                                     <option value="4">Esmaltes y anticorrosivos</option>
                                     <option value="5">Protectores de madera</option>

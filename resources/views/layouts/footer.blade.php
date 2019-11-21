@@ -3,11 +3,11 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-5 col-sm-6">
                     <div class="footer-widget about">
                         <div class="widget-body">
                             <a href="#" class="footer-logo">
-                                <img src="{{ asset('/assets/img/quimtex_blanco.png') }}" alt="footer logo">
+                                <img src="{{ asset('/assets/img/quimtex_blanco.png') }}" alt="footer logo" style="max-width: 250px;">
                             </a>
                             <p>Av. Cobo 975, Ciudad Autónoma de Buenos Aires, Argentina. <br>
                                 +54 (011) 4926-2525 <br>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6 col-md-offset-1">
+                <div class="col-md-3 col-sm-6 col-md-offset-1">
                     <div class="footer-widget solution">
                         <div class="widget-title">
                             <h4 class="title">Productos</h4>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div class="footer-widget solution">
                         <div class="widget-title">
                             <h4 class="title">Menú</h4>
