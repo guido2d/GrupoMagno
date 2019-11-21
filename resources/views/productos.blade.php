@@ -30,7 +30,7 @@
                     <div class="content">
                         <span class="time">{{ $categoria }}</span>
                         <a href="#"> <h4 class="title">{{ $p->titulo }}</h4></a>
-                        <p>{{ $p->descripcion }}</p>
+                        <p>{!! $p->descripcion !!}</p>
                     </div>
                 </div><!-- //.single blog grid item -->  
             </div>

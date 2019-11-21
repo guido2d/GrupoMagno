@@ -24,9 +24,10 @@
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="titulo">Título</label>
-                            <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Ingrese el titulo del producto">
+                            <input type="text" name="titulo" class="form-control" id="titulo"
+                                placeholder="Ingrese el titulo del producto">
                         </div>
-                        
+
                         <div class="form-group">
                             <div class="form-group">
                                 <label for="categoria">Categoría</label>
@@ -42,17 +43,18 @@
                                 </select>
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="descripcion">Descripción</label>
-                            <textarea name="descripcion" id="" cols="30" rows="8" class="form-control"></textarea>
+                            <input type="hidden" name="descripcion" id="descripcion">
+                            <div class="summernote"></div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="imagen">Imágen del producto</label>
                             <input type="file" name="imagen" class="form-control">
                         </div>
-                        
+
                         <button type="submit" class="btn btn-primary" id="btnSaveNews">Guardar Producto</button>
                         <a href="/admin" class="btn btn-danger">Cancelar</a>
                     </form>
@@ -67,4 +69,31 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-@endsection 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
+<script src="{{ asset('js/summernote-es-ES.js') }}"></script>
+@endsection
+
+@section('js')
+<script>
+
+    $('.summernote').summernote({
+        height: 400,
+        lang: 'es-ES',
+        toolbar: [
+            ['style', ['bold', 'italic', 'underline']],
+            ['color', ['color']],
+        ]
+    });
+
+    $('#btnSaveNews').on('click', function(e) {
+        var description = $('.summernote').eq(0).summernote('code');
+        
+        $('#descripcion').val(description);
+        
+        $('#frmNewProd').submit();
+        
+    });
+
+</script>
+@endsection

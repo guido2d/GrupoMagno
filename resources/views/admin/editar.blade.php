@@ -20,7 +20,7 @@
                     </div>
                     @endif
 
-                    <form method="post" action="/admin/actualizar-producto" enctype="multipart/form-data">
+                    <form method="post" action="/admin/actualizar-producto" enctype="multipart/form-data" id="frmUpdateNews">
                         {{ csrf_field() }}
                         <input type="hidden" value="{{ $producto->id }}" name="producto_id">
                         <input type="hidden" value="{{ $producto->imagen }}" name="file_name">
@@ -46,7 +46,10 @@
                         
                         <div class="form-group">
                             <label for="descripcion">Descripción</label>
-                            <textarea name="descripcion" id="descripcion" cols="30" rows="8" class="form-control">{{ $producto->descripcion }}</textarea>
+                            <input type="hidden" name="descripcion" id="descripcion">
+                            <div class="summernote">
+                                    {!! $producto->descripcion !!}
+                            </div>
                         </div>
                         
                         <div class="form-group">
@@ -70,4 +73,35 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-@endsection 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
+<script src="{{ asset('js/summernote-es-ES.js') }}"></script>
+@endsection
+
+@section('js')
+
+<script>
+    $('.summernote').summernote({
+        height: 400,
+        lang: 'es-ES',
+        toolbar: [
+                ['style', ['bold', 'italic', 'underline']],
+                ['color', ['color']],
+            ]
+    });
+
+
+    // $('.summernote').eq(0).summernote('code', description);
+
+    $('#btnSaveNews').on('click', function(e) {
+        var description = $('.summernote').eq(0).summernote('code');
+
+        $('#description').val(description);
+
+        $('#frmUpdateNews').submit();
+
+    });
+
+</script>
+
+@endsection
