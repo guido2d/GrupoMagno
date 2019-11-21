@@ -16,8 +16,8 @@ class ProductosController extends Controller
                 $productos = Producto::where('categoria', 1)->paginate(20);
             break;
 
-            case "impermeabilizante":
-                $categoria = "Impermeabilizante";
+            case "impermeabilizantes":
+                $categoria = "Impermeabilizantes";
                 $productos = Producto::where('categoria', 2)->paginate(20);
             break;
 

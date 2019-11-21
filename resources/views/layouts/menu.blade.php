@@ -87,7 +87,7 @@
                             <a href="{{ asset('/productos/acondicionadores') }}">Acondicionadores de superficie</a>
                         </li>
                         <li>
-                            <a href="{{ asset('/productos/impermeabilizante') }}">Impermeabilizante</a>
+                            <a href="{{ asset('/productos/impermeabilizantes') }}">Impermeabilizantes</a>
                         </li>
                         <li>
                             <a href="{{ asset('/productos/pinturas') }}">Pinturas Látex</a>
