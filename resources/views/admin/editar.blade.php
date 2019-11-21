@@ -96,7 +96,7 @@
     $('#btnSaveNews').on('click', function(e) {
         var description = $('.summernote').eq(0).summernote('code');
 
-        $('#description').val(description);
+        $('#descripcion').val(description);
 
         $('#frmUpdateNews').submit();
 

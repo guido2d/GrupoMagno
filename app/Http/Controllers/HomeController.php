@@ -82,7 +82,6 @@ class HomeController extends Controller
             'titulo' => 'required',
             'descripcion' => 'required',
             'categoria' => 'required',
-            'imagen' => 'required',
         ]);
 
         /* GUARDO LA IMAGEN */
