@@ -21,7 +21,7 @@
     <!-- magnific popup -->
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1.1') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1.2') }}">
     <!-- responsive -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 </head>

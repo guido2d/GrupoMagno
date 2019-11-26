@@ -2924,15 +2924,16 @@ ul {
 
 .blog-grid-content .single-blog-grid-item .thumb {
   margin-bottom: 23px;
-  max-width    : 360px;
-  height       : 360px;
+  width        : 100%;
+  height       : auto;
+  max-height   : 100%;
   text-align   : center;
 }
 
 .blog-grid-content .single-blog-grid-item .thumb img {
-  max-width: 100%;
-  height   : 100%;
-  margin   : 0 auto;
+  width : 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .blog-grid-content .single-blog-grid-item .content .time {

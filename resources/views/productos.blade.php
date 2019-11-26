@@ -22,17 +22,27 @@
     <div class="container">
         <div class="row">
             @foreach($productos as $p)
-            <div class="col-md-4 col-sm-6">
-                <div class="single-blog-grid-item margin-bottom-30"><!-- single blog grid item -->  
-                    <div class="thumb">
-                        <img src="{{ asset('/assets/img/productos') . '/' . $p->imagen }}" alt="blog grid image">
-                    </div>
-                    <div class="content">
-                        <span class="time">{{ $categoria }}</span>
-                        <a href="#"> <h4 class="title">{{ $p->titulo }}</h4></a>
-                        <p>{!! $p->descripcion !!}</p>
-                    </div>
-                </div><!-- //.single blog grid item -->  
+            <div class="col-md-12">
+                <div class="single-blog-grid-item margin-bottom-30">
+                    <!-- single blog grid item -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="thumb">
+                                <img src="{{ asset('/assets/img/productos') . '/' . $p->imagen }}"
+                                    alt="blog grid image">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="content">
+                                <span class="time">{{ $categoria }}</span>
+                                <a href="#">
+                                    <h4 class="title">{{ $p->titulo }}</h4>
+                                </a>
+                                <p>{!! $p->descripcion !!}</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div><!-- //.single blog grid item -->
             </div>
             @endforeach
         </div>
